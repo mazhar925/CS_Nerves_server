@@ -6,7 +6,6 @@ const cors = require('cors');
 
 const port = process.env.PORT || 5000;
 
-app.use(cors());
 
 app.get('/courses', (req, res)=>{
     res.send(courses);
