@@ -20,6 +20,4 @@ app.get('/details/:id', (req, res)=>{
 
 })
 
-app.listen(port, (req, res)=>{
-    console.log('server is running')
-})
+app.listen(port)
